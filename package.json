@@ -1,0 +1,17 @@
+{
+  "name": "playground13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "npx browserify index.js -s Hypercore -o bundle.js",
+    "demo": "npx parcel serve ./index.html --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hypercore": "^10.0.0-alpha.39",
+    "random-access-memory": "^4.1.0"
+  }
+}
